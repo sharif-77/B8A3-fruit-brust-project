@@ -71,12 +71,20 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-40 mr-auto absolute -translate-x-full"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-60 mr-auto absolute -translate-x-full"
               >
                 <li><a>Home</a></li>
                 <li><a>About us</a></li>
                 <li><a>Shop</a></li>
                 <li><a>All Fruits</a></li>
+                <!-- search start -->
+                <div class="relative max-w-max pl-2">
+                  <input type="text" placeholder="Search…" class="input input-bordered outline-none  focus:outline-none" />
+                  <button class=" btn-square absolute right-0 bg-transparent rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"  stroke="currentColor"><path  stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                </div>
+                <!-- search end -->
               </ul>
             </div>
           </div>
@@ -1105,7 +1113,7 @@
       <!-- Why Choose Us section end -->
     </main>
 
-    <footer class="min-h-[400px] py-5 lg:p-10 bg-black text-primary-content w-full text-center">
+    <footer class="min-h-[400px] py-5 lg:p-10 lg:py-20 bg-black text-primary-content w-full text-center">
       <div class="space-y-10 w-4/5  lg:w-3/5 m-auto text-center border-5 border-red-800 border-solid">
 
         <div class="logo-wrapper flex items-center justify-center gap-5 text-center">
